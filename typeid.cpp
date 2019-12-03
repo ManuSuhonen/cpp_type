@@ -1,3 +1,10 @@
+#include <typeinfo>
+#include <cxxabi.h>
+#include <string>
+#include <memory>
+
+using namespace std;
+
 namespace type
 {
     template<typename T>
